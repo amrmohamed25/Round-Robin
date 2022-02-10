@@ -39,5 +39,6 @@ and when does the processor is idle (no processes in the queue).
 Each process should enter the queue whenever its execution time comes.
 Each process will be grant 1 time slot on execution, if its execution time finishes it will abort,
 else it will be sent again to the queue and its execution time will be subtracted by 1.
+
 4 Notes
 - Implement your algorithms using c programming language.
