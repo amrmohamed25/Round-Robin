@@ -1,8 +1,7 @@
 # Round-Robin
 
-Page 1 of 2
-Assignment 2 - Queues using Linked List Implementation
 1 Queues Implementation
+
 A queue differs from a stack in that its insertion and removal routines follow
 the first-in, first out (FIFO) principle Elements may be inserted at any time, but
 only the element, which has been in the queue the longest, may be removed.
@@ -10,6 +9,7 @@ Elements are inserted at the rear (enqueued) and removed from the front
 (dequeued). So there are 2 main operations in queue Enqueue and Dequeue.
 It's required to implement Queue using linked list implementation with the
 following functions:-
+
  Initialize It initializes queue, and make the head pointer equals NULL.
 Prototype: Queue* initialize();
  Dequeue It removes the first inserted element in the Queue and return it, and
@@ -20,7 +20,9 @@ element at the end of the queue.
 Prototype: void enqueue(Queue *q, Process value)
  isEmpty It returns 1 if queue is empty or 0 otherwise.
 Prototype: int isEmpty(Queue *q);-
+
 2 Application
+
 One of the main functions of the operation system is to schedule processes that
 the processor executes. One of the very popular algorithms for this scheduling
 is called Round Robin, where each process enters a queue, executes in a FIFO
@@ -31,6 +33,7 @@ You will be given a file with the name of the processes that needs execution,
 time slot that it will enter the queue, and the needed time for it's execution.
 
 3 Algorithm
+
 The given input file will have the watching time slots in the first line, then in the successive lines
 you will have the name of the process, time it enters the queue, and the needed time for
 execution respectively.
